@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="All Test Suite">
+
+    <test name="Belirli Gruplari Calistirma">
+        
+        <groups>
+            <run>
+                <include name="grup1"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="techproed.tests.day19_POM"></package>
+        </packages>
+    </test>
+
+</suite>
